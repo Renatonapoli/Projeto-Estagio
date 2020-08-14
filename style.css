@@ -1,0 +1,121 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.titulo-principal {
+	text-align: center;
+	font-size: 1em;
+	margin: 0 0 1em;
+}
+.subtitulo {
+	text-align: center;
+	opacity : 40%;
+	color: #000;
+	margin: -1em 0 0;
+}
+li {
+	text-align: right;
+	margin: 2em 19em 0 0;
+	list-style-type: none;
+}
+hr {
+	text-align: right;
+	margin-right: -235px;
+	margin-left: 910px;
+}
+.posicao {
+   position: absolute;
+   left: 41%;
+   top: 16.5%;
+}
+.posicao-esquerdo{
+   position: absolute;
+   left: 15%;
+   top:16.5%;
+}
+.imagem {
+	width: 55%;
+	height: 75%;
+}
+.pesquisar {
+	text-align: right;
+	margin: 3em 10.2em 0 0;
+}
+a {
+    color: #0000FF;
+    text-decoration:none;
+}
+input[type="text"]{
+    width:280px;
+    height:35px;
+    position: absolute;
+    margin: 10px 0px 0 955px
+}
+input{
+   border:#ddd solid 1px;
+   float:left;
+   padding:5px 20px 5px 5px;
+   border-radius: 10px;
+   background: transparent;
+}
+.lupa{
+	width: 30px;
+	height: 30px;
+	float: right;
+	padding: 15px 80px 0 0;
+}
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 2px;
+	width: 50%;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+form {
+	margin: 50px 50px;
+}
+
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+nav li {
+	display: block;
+	margin: 0 0 0 15px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 2px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
